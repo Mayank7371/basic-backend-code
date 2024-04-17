@@ -10,7 +10,7 @@ const subTodoSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
-    // now i want to track ki ye field kisne banaya hai
+    
     createdBy: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
