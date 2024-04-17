@@ -17,8 +17,6 @@ const userSchema = new mongoose.Schema(
     password: {
       type: String,
       required: [true, "password is required"],
-      //aise define bhi kr skte hai jo bolta hai agar true ni ho to message likh do password is required
-      // it means we can give custom messages
       unique: true,
     },
   },
